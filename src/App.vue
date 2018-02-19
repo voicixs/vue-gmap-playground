@@ -119,26 +119,6 @@ export default {
   },
   mounted () {
     this.$store.dispatch('createMap')
-    // console.log(this.isRouteSet)
-    /*
-    //this.bounds = new google.maps.LatLngBounds();
-    const element = document.getElementById('map')
-    const options = {
-      center: new google.maps.LatLng(0, 0),
-      zoom: 1
-    }
-    this.$store.state.map = new google.maps.Map(element, options);
-    /*
-    this.markerCoordinates.forEach((coord) => {
-      const position = new google.maps.LatLng(coord.latitude, coord.longitude);
-      const marker = new google.maps.Marker({
-        position,
-        map: this.map
-      });
-      this.markers.push(marker)
-      this.map.fitBounds(this.bounds.extend(position))
-    });
-    */
   }
 }
 </script>
