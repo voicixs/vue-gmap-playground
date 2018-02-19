@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <nav class="navbar is-primary">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">Vue, GoogleMap Playground</a>
@@ -145,7 +145,7 @@ export default {
 
 <style scoped>
 #app {
-  width: 60%;
+
   height: 100%;
   margin: 0 auto;
 
